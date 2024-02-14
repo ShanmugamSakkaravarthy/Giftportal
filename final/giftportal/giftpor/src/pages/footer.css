@@ -1,0 +1,73 @@
+/* FooterComponent.css */
+
+.footer {
+    background-color: #323131;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top:674px;
+    height: 154px;
+    margin-left: -18px;
+    width: 105%;
+    }
+    
+    .footer-content {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start; /* Align items to the start of the cross axis (top) */
+    }
+    
+    .left-section,
+    .center-section,
+    .right-section {
+      flex: 1;
+      padding: 10px;
+    }
+    
+    .right-section {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end; /* Align items to the end of the cross axis (right) */
+    }
+    
+    .social-media a {
+      display: block;
+      color: white;
+      text-decoration: none;
+      margin-bottom: 5px;
+    }
+    
+    .footer-logo {
+      margin-top: 20px;
+    }
+    
+    /* Responsive Styles */
+    @media (max-width: 1068px) {
+      .footer-content {
+        flex-direction: column;
+        /* align-items: center; */
+        align-content: center;
+      }
+    
+      .left-section,
+      .center-section,
+      .right-section {
+        margin-bottom: 20px;
+      }
+    }.center-section{
+      margin-top: 1rem;
+    }
+    .left-section{
+      margin-top: 1rem;
+      
+    }
+    .right-section{
+      margin-top: -1rem;
+      
+    }
+    /* .footer{
+      width: 106.2rem;
+      margin-left: -2rem;
+    } */
